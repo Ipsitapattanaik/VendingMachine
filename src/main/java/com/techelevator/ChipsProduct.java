@@ -1,5 +1,16 @@
 package com.techelevator;
 
-public class ChipsProduct {
+import java.math.BigDecimal;
 
+public class ChipsProduct extends Product {
+	
+	public ChipsProduct(String name, BigDecimal price) {
+		super(name, price);
+		
+	}
+
+	public  String getSound() {
+		return "Crunch Crunch, Yum!";
+	}
 }
+
