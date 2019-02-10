@@ -6,18 +6,6 @@ package com.techelevator;
 	import org.junit.Test;
 
 	public class DrinkProductTest {
-		DrinkProduct sut;
 
-		@Before
-		public void setUp() throws Exception {
-			sut = new DrinkProduct("Coke", new BigDecimal("1.50"));
-		}
-
-		@Test
-		public void testConstructor() {
-
-			assertEquals("Coke", sut.getName());
-			assertEquals("1.50", sut.getPrice().toString());
-		}
 	}
 

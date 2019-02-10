@@ -1,17 +1,16 @@
 package com.techelevator;
 
-public class CandyProduct implements MasterItem {
-    private String name = ""; 
+public class ChipProduct implements MasterItem {
+
+	private String name = ""; 
 	private String slot = ""; 
 	private double price = 0.00;
 	private int quantity = 5; 
-   // private int sold = 0;
-		 
 	
 	@Override
 	public String getName() {
 		if (name.length() <= 18) {
-			return name + "                 ";
+			return name + "                ";
 		} else {
 		return name;
 		}
@@ -49,7 +48,7 @@ public class CandyProduct implements MasterItem {
 
 	@Override
 	public String consume() {
-		return "Munch Munch, Yum!";
+		return "Crunch Crunch, Yum!";
 	}
 
 	@Override
@@ -70,9 +69,5 @@ public class CandyProduct implements MasterItem {
 		}
 		return message;
 	}
-	
-	
-	
-	
 
 }
