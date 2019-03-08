@@ -1,6 +1,7 @@
 package com.techelevator;
 
-	import org.junit.Assert;
+	import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,10 +14,15 @@ public class CandyProductTest {
 		newproduct = new CandyProduct(); 
 	}
 	
+	@After
+	public void teardown() {
+		System.out.println("teardown");
+	}
+	
 	@Test
 	public void test_get_and_set_names() {
 		newproduct.setName("fido");
-		Assert.assertEquals("fido", newproduct.getName());
+		Assert.assertEquals("fido", newproduct.getName().trim()); 
 		
 	}
 	

@@ -1,5 +1,12 @@
 package com.techelevator;
 
-public class VendingMachineOptionsTest {
+	import org.junit.After;
+import org.junit.Before;
 
+	public class VendingMachineOptionsTest {
+		
+
+	
+		
+		
 }

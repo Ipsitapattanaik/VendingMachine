@@ -24,9 +24,9 @@ public class VendingMachineCLI {
 		System.out.println("|           Ipsita and Dan         |");
 		System.out.println("|              help from           |");
 		System.out.println("|            Tom, Andrew,          |");
-		System.out.println("|      StackOverflow, W3Schools    |");
-		System.out.println("|                and               |");
-		System.out.println("|        JavaTutorial Point        |");
+		System.out.println("|     StackOverflow, W3Schools,    |");
+		System.out.println("|             Quora and            |");
+		System.out.println("|           Java Tutorial          |");
 		System.out.println("+----------------------------------+");
 	}
 	
